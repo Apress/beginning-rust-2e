@@ -1,5 +1,5 @@
 /* It prints:
-None Some(4.3)*/
+None, Some(4.3)*/
 fn main() {
     fn get_third(s: &[f64]) -> Option<f64> {
         if s.len() >= 3 {
